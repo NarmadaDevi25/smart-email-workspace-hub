@@ -1,16 +1,40 @@
-# React + Vite
+# Smart Email Workspace Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An all-in-one productivity dashboard built with **React** and **Tailwind CSS** that combines an intelligent email classifier/sorter with an automated job interview tracker.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* **Smart Email Classifier & Auto-Router:** Paste raw recruiter emails or everyday personal receipts (Shopping, Food/Delivery, Travel), and the rule-based engine automatically categorizes them.
+* **Seamless Pipeline Integration:** Job and interview-related emails are automatically routed straight into the **Interview Tracker** tab, updating status metrics (Pending, Approved, Rejected) in real-time.
+* **Email Inbox Archive:** Keeps a searchable, clean archive of all processed personal and professional emails with individual delete and undo actions.
+* **Interactive Interview Pipeline:** Track application sources (LinkedIn, Handshake, Company Website), update application statuses instantly, and filter or search records dynamically.
+* **Global Undo Functionality:** Features a floating notification banner allowing you to instantly restore deleted applications or archived emails.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS
+* **State Management:** React Hooks (`useState`, `useMemo`)
+
+---
+
+## 📦 Getting Started Locally
+
+1. Clone or download the repository to your local machine.
+2. Install dependencies:
+3.Run the development server:
+   ```bash
+   npm run dev
+   
+4.Open your browser and navigate to http://localhost:5173.
+
+💡 How to Use
+1.Test the Email Sorter: Go to the Email Inbox & Sorter tab, paste a sample recruiter email (e.g., Stripe Interview Invitation) or a personal delivery receipt, and click Classify Email.
+
+2.Auto-Route to Tracker: Hit Confirm & Auto-Route to instantly log the message in your archive and watch job applications populate the Interview Tracker tab automatically.
+
+3.Manage Pipeline: Switch to the Interview Tracker tab to update interview statuses, search applications, or filter by status.
